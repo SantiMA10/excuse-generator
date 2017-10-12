@@ -1,0 +1,12 @@
+{
+  "name": "excuse-generator",
+  "description": "excuse-generator",
+  "dependencies": {
+    "actions-on-google": "^1.4.0",
+    "firebase-admin": "~5.4.0",
+    "firebase-functions": "^0.7.0",
+    "i18n": "^0.8.3",
+    "lodash": "^4.17.4"
+  },
+  "private": true
+}

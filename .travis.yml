@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "8"
+deploy:
+  provider: firebase
+  on: master
+  token:
+    secure: "bjORUwFr7QgPSqAsvzmUikp1haMvz8x/BIiK6rHPNx/C/SHq8aJ9u/qUs1FDZyRofwKVbuwnMzis8SMzeeBPxmYGTFAGKUPVA0m1GX9kIjG5+PCFWJQTrz9HpWvmXp5hncTa8UIoodse6b14p3Iv3c2uiJbww4pkWgghBTi0VMis44s/XBzs46ocBG02F8iNN43xq+7Y+fLQBGlfUtji80T3Sg1fmf5rjWTD9yFYgKjzaN9puFFA+GzaeasdR
+            sXhjoZdR97jJNCv1/+2AlkJtCO+duUG+lRM7yja73NeaxPD0muPoZu1DlJ95OsbcHPX4nCOFF5/Edxa4Ft9pWHGe65zbvd8k5H2s3bwtEBw74/ucT58vU+nVGHju+qv1vooq3zYcbrvAWOE78J5f383IR/lLz5tCIHB89aRhiC+xNY+mJOgE9xT03vowiLab2REgivqwweOOfC2gIcTLWXQxS9l4qVqHpTSxZNgNaxPvo8XW7M2C8ysNEc6LzshqSyI7NXMb
+            WcYvmQiRnhuIG6vO30niJxrtWmlaZoy16RdoR0y1baH10umCdcP8LQhfsAxF91AO8kGYtPexRFNcbLzZ9HMTHRt94BY9UFKifjUaXI2pj39GvkjpPTOPBFOhbU/eF1ko9m/Kf66OYcDkQczi/fziCtp+a0TCkZ81LaTpfU="
+  project: excuse-generator-70581
