@@ -1,0 +1,9 @@
+{
+  "name": "excuse-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SantiMA10/excuse-generator.git",
+  "author": "Santiago M.A. <santiagomartinagra@gmail.com>",
+  "license": "MIT",
+  "private": true
+}

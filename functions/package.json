@@ -1,6 +1,6 @@
 {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
+  "name": "excuse-generator",
+  "description": "excuse-generator",
   "dependencies": {
     "actions-on-google": "^1.4.0",
     "firebase-admin": "~5.4.0",

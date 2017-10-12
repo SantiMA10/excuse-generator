@@ -1,3 +1,6 @@
+languaje: node_js
+node_js:
+  - "8"
 deploy:
   provider: firebase
   on: master
