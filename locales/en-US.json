@@ -1,0 +1,28 @@
+{
+  "INITIALS" : [
+    "Here it is:",
+    ""
+  ],
+  "EXCUSES" : [
+    "I was abducted by aliens",
+    "I don’t speak (whatever language that is.)",
+    "I had to take my daughter to see the Hunger Games",
+    "I missed my flight.",
+    "I made my flight but it was the wrong one.",
+    "They mistook me for a terrorist and detained me.",
+    "I forgot to set my alarm clock.",
+    "I set my alarm clock but it was not plugged in.",
+    "My alarm clock was recalled.",
+    "Today is a religious holiday for my religion.",
+    "They thought my iPad was a bomb and made me get off the plane.",
+    "My GPS is out of warranty",
+    "My Google Home is broken and it can't generate new excuses",
+    "I didn’t know what day it was because I was looking at the Mayan Calender.",
+    "I locked my keys in my car."
+  ],
+  "FINALS" : [
+    "If you need more excuses ask for it.",
+    "You can ask for other excuse when you need it.",
+    ""
+  ]
+}
