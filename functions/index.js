@@ -12,7 +12,7 @@ exports.generateExcuse = functions.https.onRequest((request, response) => {
 
 	i18n.configure({
 		locales: ['en-US'],
-		directory: __dirname + '/../locales',
+		directory: __dirname + '/locales',
 		defaultLocale: 'en-US'
 	});
 	i18n.setLocale(assistant.getUserLocale() || 'en-US');
