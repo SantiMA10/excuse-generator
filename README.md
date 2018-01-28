@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://lh3.googleusercontent.com/-L4gr8CWDPXI/WdlVvyQ6RoI/AAAAAAAAGW8/oql590oCNWgtAoriTVwd-P4snKwGt-bTgCMYCGAYYCw/h192-w192/1.png" width=100>
+    ¯\_(ツ)_/¯
 </p>
 <p align="center">
     <a href="https://travis-ci.org/SantiMA10/excuse-generator">
