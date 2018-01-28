@@ -17,7 +17,7 @@
     <a href="https://twitter.com/intent/tweet?text=Wow:%20https://github.com/SantiMA10/excuse-generator">
         <img src="https://img.shields.io/twitter/url/https/github.com/SantiMA10/excuse-generator.svg?style=flat">
     </a>
-    
+    <a href="https://codeclimate.com/github/SantiMA10/excuse-generator/maintainability"><img src="https://api.codeclimate.com/v1/badges/48d6a2ed6b92ee704776/maintainability" /></a>
 </p>
 
 # Excuse generator 
