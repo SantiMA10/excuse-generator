@@ -28,7 +28,7 @@ An excuse generator for Google Assistant, you can find it [here](https://assista
 * [Actions on Google](https://developers.google.com/actions/)
 * [DialogFlow](https://dialogflow.com/)
 * [Firebase Cloud Functions](https://firebase.google.com/docs/functions/)
-* [node i18n](https://github.com/mashpie/i18n-node) 
+* [Actions on Google i18n](https://github.com/sfeir-open-source/actions-on-google-i18n) 
 
 ## Contributing
 
