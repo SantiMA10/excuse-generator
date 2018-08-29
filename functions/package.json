@@ -1,12 +1,27 @@
 {
-  "name": "excuse-generator",
-  "description": "excuse-generator",
-  "dependencies": {
-    "actions-on-google": "^1.4.0",
-    "firebase-admin": "~5.4.0",
-    "firebase-functions": "^0.7.0",
-    "i18n": "^0.8.3",
-    "lodash": "^4.17.4"
+  "name": "functions",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
+    "serve": "npm run build && firebase serve --only functions",
+    "serve:lt": "npx lt --port 5000 --subdomain df-excuse-generator",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
   },
-  "private": true
+  "main": "lib/index.js",
+  "dependencies": {
+    "@sfeir/actions-on-google-i18n": "^2.1.0",
+    "actions-on-google": "^2.3.0",
+    "firebase-admin": "~6.0.0",
+    "firebase-functions": "^2.0.3"
+  },
+  "devDependencies": {
+    "localtunnel": "^1.9.0",
+    "tslint": "~5.8.0",
+    "typescript": "~2.8.3"
+  },
+  "private": true,
+  "engines": { "node": "8" }
 }
