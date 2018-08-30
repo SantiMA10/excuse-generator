@@ -7,12 +7,12 @@ const app = dialogflow({ debug: true });
 i18n
     .configure({
         directory: `${__dirname}/../locales`,
-        defaultLocale: 'en-US'
+        defaultLocale: 'en-us'
     })
     .use(app);
 
 app.intent('excuse-generator', (conv: any) => {
-    conv.ask(`${conv.__('INITIALS')} ${conv.__('EXCUSES')}. ${conv.__('FINALS')}`);
+    conv.close(`${conv.__('INITIALS')} ${conv.__('EXCUSES')}.`);
 });
 
 export const generateExcuse = functions.https.onRequest(app);
