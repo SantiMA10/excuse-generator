@@ -14,8 +14,8 @@
   "dependencies": {
     "@sfeir/actions-on-google-i18n": "^2.1.0",
     "actions-on-google": "^2.3.0",
-    "firebase-admin": "~6.0.0",
-    "firebase-functions": "^2.0.3"
+    "firebase-admin": "~11.4.1",
+    "firebase-functions": "^4.1.1"
   },
   "devDependencies": {
     "localtunnel": "^1.9.0",
